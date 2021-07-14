@@ -12,3 +12,41 @@ body{
     font-size: 62.5%; /* 1rem = 10px */
 }
 
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.card{
+    -webkit-box-shadow: 12px 9px 14px -5px rgba(0,0,0,0.24);
+    -moz-box-shadow: 12px 9px 14px -5px rgba(0,0,0,0.24);
+    box-shadow: 12px 9px 14px -5px rgba(0,0,0,0.24);
+}
+.card-tittle{
+    text-align: center;
+    font-size: 1.2rem;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: blue;
+    padding: 1rem 0 1rem 0;
+    color: white;
+}
+
+.card-text{
+    width: 80%;
+    display: block;
+    margin: 0 auto;
+}
+
+.card-text p{
+    line-height: 2;
+    text-align: justify;
+    font-size: 1rem;
+}
+
+.image{
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 3rem;
+}
+
